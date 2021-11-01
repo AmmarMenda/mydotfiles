@@ -62,4 +62,4 @@ to run the script but I have already integrated a shortcut in dwm config.h if yo
 
 it will start the script
 
-All these scripts and config files are very janky I will improve on these but I made this for newbies like me  who even though had many resources couldnt figure out how to most of the stuff and had to learn on my own
+All these scripts and config files are very janky I will improve on these but I made this for newbies like me  who even though had many resources couldnt figure out how to do most of the stuff and had to learn on my own
