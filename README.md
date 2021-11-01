@@ -1,3 +1,5 @@
+This is for absolute newbies as I am one myself but tall these seems to work for me so I will show every step
+
 This is my dot files
 
 It Consists configs of
@@ -61,5 +63,31 @@ to run the script but I have already integrated a shortcut in dwm config.h if yo
 >MODKEY + Z
 
 it will start the script
+
+
+this script shows wifi ssid battery status percentage and time remainig for discharging or dischagring and date
+
+the script uses iwconfig to get SSID of wifi it can be installed with
+
+>sudo pacman -S wireless_tools or apt-get install wireless_tools
+
+>iwconfig wlp2s0
+
+wlp2s0 is my wifi card name you will have to replace it with yours you can do it by doing ifconfig which is can be installed with 
+
+>sudo pacman -S net-tools or apt-get install net-tools
+
+>ifconfig 
+
+it will show list of network interfaces for me it was wlp2s0
+
+then replace the name of the interface in the script like this 
+
+before
+>$(iwconfig (your network interface name)
+
+after
+>$(iwconfig wlp2s0)
+
 
 All these scripts and config files are very janky I will improve on these but I made this for newbies like me  who even though had many resources couldnt figure out how to do most of the stuff and had to learn on my own
