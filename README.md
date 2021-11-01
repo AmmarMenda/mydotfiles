@@ -1,5 +1,6 @@
 This is my dot files
-Consists configs of
+
+It Consists configs of
 >dwm
 
 
