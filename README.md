@@ -11,8 +11,9 @@ Consists configs of
 
 I really like suckless programs
 
-If you are new to this things just like me I'll explain how to install these if you accidentally reach here
-so dwm-config.h should be copied into your source file for dwm as config.h if you already have one replace it as config.h.def is default config file and if anything goes wrong you can delete config.h and do
+If you are new to this things just like me I'll explain how to install these
+So dwm-config.h should be copied into your source file for dwm as config.h if you already have one replace it 
+As config.h.def is default config file and if anything goes wrong you can delete config.h and do
 
 >make
 
